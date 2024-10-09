@@ -2,7 +2,6 @@
 
 # Default target to compile the program
 all: 
-	mkdir -p bin
 	mkdir -p objects
 	g++ -c data/game/functions.cpp -o objects/functions.o
 	g++ -c data/game/doors.cpp -o objects/doors.o
